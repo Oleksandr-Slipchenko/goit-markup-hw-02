@@ -7,6 +7,8 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -21,10 +23,22 @@ body {
 /* logo */
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 /* nav */
+.nav-section {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .nav .link:hover,
 .nav .link:focus {
@@ -34,6 +48,7 @@ body {
 /* contacts */
 .contacts .link {
   color: #757575;
+  text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -42,43 +57,140 @@ body {
 /* main */
 
 /* hero */
+/* БЕЛЫЙ ЦВЕТ!!! */
 .hero-title {
   color: ;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   color: var(--accent-color);
   background-color: var(--text-color-hover);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
 /* section with features of the company */
+.section-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .section-item {
   color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* company specialization */
+.specialization {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.specialization-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 /* section team */
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 .section-team {
   background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.section-team .person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .list .link:hover,
 .list .link:focus {
   color: var(--text-color-hover);
 }
+/* customers */
+.customers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 /* footer */
 .footer {
   background-color: #2f303a;
 }
-.adrress {
-  color: var(--accent-color);
+.logo-down {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
 }
 .logo-part-two {
   color: var(--accent-color);
 }
+.adrress {
+  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
 .adrress-contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .join-in {
   color: var(--accent-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .site-developers > p {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Portfolio */
+
+.filter-link {
+  text-decoration: none;
+}
+.filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.filter-article {
+  font-size: 18px;
+  line-height: 1.55;
+}
+.filter-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-caption {
+  font-size: 16px;
+  line-height: 1.87;
+}

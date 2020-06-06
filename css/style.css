@@ -182,6 +182,11 @@ body {
 	line-height: 1.62;
 	text-align: center;
 }
+.button-filter:hover,
+.button-filter:focus {
+	color: var(--text-color-hover);
+}
+
 .filter-article {
 	font-size: 18px;
 	line-height: 1.55;

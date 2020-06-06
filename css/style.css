@@ -176,7 +176,7 @@ body {
 	text-decoration: none;
 	color: var(--primary-text-color);
 }
-.filter-item {
+.button-filter {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;

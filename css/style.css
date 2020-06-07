@@ -121,6 +121,11 @@ body {
 	font-size: 16px;
 	line-height: 1.9;
 }
+.section-item {
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+}
 .list .link:hover,
 .list .link:focus {
 	color: var(--text-color-hover);
@@ -136,12 +141,7 @@ body {
 .footer {
 	background-color: #2f303a;
 }
-.logo-down {
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 1.18;
-	text-decoration: none;
-}
+
 .logo-part-two {
 	color: var(--accent-color);
 }
@@ -151,10 +151,11 @@ body {
 	line-height: 1.71;
 	font-style: normal;
 }
-.adrress-contacts {
+.adrress-contacts .link {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
 	line-height: 1.71;
+	text-decoration: none;
 }
 .join-in {
 	color: var(--accent-color);
@@ -200,4 +201,6 @@ body {
 .filter-caption {
 	font-size: 16px;
 	line-height: 1.87;
+	font-family: Roboto;
+	color: #757575;
 }

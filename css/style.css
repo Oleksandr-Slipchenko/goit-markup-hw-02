@@ -86,7 +86,7 @@ body {
 	line-height: 1.14;
 	text-transform: uppercase;
 }
-.section-item {
+.section-text {
 	color: #757575;
 	font-size: 14px;
 	line-height: 1.71;
@@ -102,28 +102,34 @@ body {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
+	text-align: center;
 	text-transform: uppercase;
+	color: var(--accent-color);
 }
+
 /* section team */
+.section-team {
+	background-color: #f5f4fa;
+	font-size: 16px;
+	line-height: 1.9;
+}
 .our-team {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
 }
-.section-team {
-	background-color: #f5f4fa;
-	font-size: 16px;
-	line-height: 1.9;
-}
+
 .section-team .person {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.18;
+	text-align: center;
 }
 .section-item {
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.18;
+	text-align: center;
 }
 .list .link:hover,
 .list .link:focus {
@@ -200,6 +206,5 @@ body {
 .filter-caption {
 	font-size: 16px;
 	line-height: 1.87;
-	font-family: Roboto;
 	color: #757575;
 }
